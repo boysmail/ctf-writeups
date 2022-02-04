@@ -208,6 +208,7 @@ There are 7 potential passwords with 1 being correct. You can find these by exam
 
 #### Solution
 You can manually check or write a script to simplify solving
+
 [brute_level3.py](picoctf2022mini-files/brute_level3.py)
 ```python
 import hashlib
@@ -249,6 +250,7 @@ There are 100 potential passwords with 1 being correct. You can find these by ex
 
 #### Solution
 Same as PW crack 3 but now you can't manually check all the passwords
+
 [brute_level4.py](picoctf2022mini-files/brute_level4.py)
 
 Password is ```c2a8```
@@ -261,7 +263,8 @@ Can you crack the password to get the flag? Download the password checker [here]
 Here's a [dictionary](picoctf2022mini-files/dictionaty.txt) with all possible passwords based on the password conventions we've seen so far.
 
 #### Solution
-Same as PW crack 4 but now you need to read the dictionary from the file or 
+Same as PW crack 4 but now you need to read the dictionary from the file
+
 [brute_level5.py](picoctf2022mini-files/brute_level4.py)
 
 Password is ```f920```
